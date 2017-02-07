@@ -23,7 +23,7 @@ var overrides = function (options) {
   merge(nconf.stores.overrides.store, options)
 }
 
-var patch = nconf.patch = function () {
+var patch = function () {
   if (typeof nconf.stores.overrides === "undefined") {
     _overrides();
     nconf.stores.overrides.readOnly = false;

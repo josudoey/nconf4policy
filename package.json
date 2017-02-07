@@ -1,6 +1,6 @@
 {
   "name": "nconf4policy",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "define policy for nconf",
   "main": "index.js",
   "scripts": {
