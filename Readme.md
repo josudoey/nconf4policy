@@ -12,16 +12,15 @@ $ npm install nconf4policy
 var nconf = require('nconf4policy');
 // policy priority 'file' > 'overrides' > 'defaults'
 
-nconf.overrides({'foo':'bar'});
+nconf.overrides({foo:'bar'});
 nconf.get('foo');
 // bar
 
-nconf.defaults({'foo':'helloworld'});
-
+nconf.defaults({foo:'helloworld'});
 nconf.get('foo');
 // bar
 
-nconf.defaults({'foo':'helloworld'});
+nconf.defaults({foo:'helloworld'});
 // throw Error: duplicate configure key.
 
 nconf.file({file:'/tmp/nconf.json'});
