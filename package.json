@@ -1,0 +1,26 @@
+{
+  "name": "nconf4policy",
+  "version": "0.0.0",
+  "description": "define policy for nconf",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josudoey/nconf4policy.git"
+  },
+  "keywords": [
+    "nconf"
+  ],
+  "author": "JoeyFang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josudoey/nconf4policy/issues"
+  },
+  "homepage": "https://github.com/josudoey/nconf4policy#readme",
+  "dependencies": {
+    "merge": "^1.2.0",
+    "nconf": "^0.8.4"
+  }
+}
